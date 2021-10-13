@@ -23,3 +23,10 @@
 - 프론트 컨트롤러가 요청에 맞는 컨트롤러를 찾아 호출
 - 공통 처리 가능
 - 프론트 컨트롤러를 제외한 나머지 컨트롤러는 서블릿 사용하지 않아도 됨
+
+
+application.properties
+````xml
+spring.mvc.view.prefix=/WEB-INF/views/
+spring.mvc.view.suffix=.jsp
+````
